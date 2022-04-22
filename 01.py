@@ -1,4 +1,8 @@
-#1523. Count Odd Numbers in an Interval Range
+"""
+
+Day 1. Count Odd Numbers in an Interval Range
+
+"""
 
 #Solution 1 - O(n) complexity
 class Solution:
@@ -10,7 +14,7 @@ class Solution:
         return j
 
 #Solution 2 - O(1) complexity
-class Solution:
+class Solution2:
     def countOdds(self, low: int, high: int) -> int:
         if low%2 ==1 or high%2==1:
             return (high- low)//2 + 1
