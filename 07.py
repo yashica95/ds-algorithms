@@ -20,7 +20,12 @@ class Solution:
 
         return startIndex
 
+class Solution2:
+    def removeElement(self, nums: list, val: int) -> int:
+        while val in nums:
+            nums.remove(val)
+
+        return(len(nums))
 
 
-
-Solution().removeElement(nums = [3,2,2,3], val = 3)
+Solution2().removeElement(nums = [3,2,2,3], val = 3)
