@@ -25,4 +25,10 @@ class Solution:
 
         print(count)
 
-Solution().lengthOfLastWord("day")
+
+class Solution2:
+    def lengthOfLastWord(self, s: str) -> int:
+
+        print(len(s.rstrip().split(" ")[-1]))
+
+Solution2().lengthOfLastWord("day")
