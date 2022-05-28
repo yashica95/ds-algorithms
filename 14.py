@@ -23,10 +23,10 @@ class Solution:
 
         print(res, maxCount)
 
-    #Boyer Moore's algorithm  -- O(1) space complexity
+    #Boyer Moore's algorithm 
     def majorityElement3(self, nums: list) -> int:
 
-        
+
 
 
 
